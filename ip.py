@@ -15,4 +15,6 @@ print('''
 
 URL = input("Enter The Website Link : ")
 IP = socket.gethostbyname(URL)
+print(""+URL)
 print("IP Site :  "+IP)
+
